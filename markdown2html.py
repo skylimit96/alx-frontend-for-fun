@@ -34,8 +34,8 @@ if __name__ == "__main__":
         print("Usage: ./markdown2html.py <MarkdownFile> <OutputFile>", file=sys.stderr)
         sys.exit(1)
 
-md_file = sys.argv[1]
-output_file = sys.argv[2]
+    md_file = sys.argv[1]
+    output_file = sys.argv[2]
 
-convert_markdown_to_html(md_file, output_file)
-sys.exit(0)
+    convert_markdown_to_html(md_file, output_file)
+    sys.exit(0)
