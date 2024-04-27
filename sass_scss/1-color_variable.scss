@@ -1,6 +1,9 @@
 /* color variable task */
 $color: #3D3D3D;
 
-body, p {
+body {
+	color: $color;
+}
+p {
 	color: $color;
 }
